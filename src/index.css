@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+html {
+    scroll-behavior: smooth;
+  }
+.hover\:scale-105:hover {
+    transform: scale(1.05);
+  }
+  .transition-transform {
+    transition: transform 0.5s ease;
+  }
+  
